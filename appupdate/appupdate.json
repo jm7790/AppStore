@@ -4,26 +4,26 @@
         "list": [
             {
                 "name": "📺️电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/leanback-arm64_v8a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/leanback-arm64_v8a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "2.8.7|64位(推荐)"
             },
             {
                 "name": "📺️电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/leanback-armeabi_v7a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/leanback-armeabi_v7a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "2.8.7|32位"
             },
             {
                 "name": "📱手机版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/mobile-arm64_v8a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/phone.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/mobile-arm64_v8a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png?raw=true",
                 "version": "2.8.7|64位(推荐)"
             },
             {
                 "name": "📱手机版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/mobile-armeabi_v7a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/phone.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/mobile-armeabi_v7a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png?raw=true",
                 "version": "2.8.7|32位"
             }
         ]
@@ -33,20 +33,20 @@
         "list": [
             {
                 "name": "📺️电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/leanback-arm64_v8a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/leanback-arm64_v8a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "2.8.7|64位(推荐)"
             },
             {
                 "name": "📺️电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/leanback-armeabi_v7a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/leanback-armeabi_v7a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "2.8.7|32位"
             },
             {
                 "name": "📺️电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/海信专版-OK影视-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/%E6%B5%B7%E4%BF%A1%E4%B8%93%E7%89%88-OK%E5%BD%B1%E8%A7%86-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "2.8.7|海信专版"
             }
         ]
@@ -56,14 +56,14 @@
         "list": [
             {
                 "name": "📱手机版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/mobile-arm64_v8a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/phone.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/mobile-arm64_v8a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png?raw=true",
                 "version": "2.8.7|64位(推荐)"
             },
             {
                 "name": "📱手机版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/mobile-armeabi_v7a-2.8.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/phone.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/mobile-armeabi_v7a-2.8.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png?raw=true",
                 "version": "2.8.7|32位"
             }
         ]
@@ -73,20 +73,20 @@
         "list": [
             {
                 "name": "📱手机版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/OK影视Pro-手机版----3.2.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/phone.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/OK%E5%BD%B1%E8%A7%86Pro-%E6%89%8B%E6%9C%BA%E7%89%88----3.2.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png?raw=true",
                 "version": "3.2.7|64位"
             },
             {
                 "name": "📺电视版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/OK影视Pro-电视版---3.2.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/tv.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/OK%E5%BD%B1%E8%A7%86Pro-%E7%94%B5%E8%A7%86%E7%89%88---3.2.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "3.2.7|32位"
             },
             {
                 "name": "🖥️模拟器版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/OKJack/OK影视Pro-手机版--模拟器专版----3.2.7.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/pc.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/OKJack/OK%E5%BD%B1%E8%A7%86Pro-%E7%94%B5%E8%A7%86%E7%89%88---3.2.7.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/pc.png",
                 "version": "3.2.7|64位"
             }
         ]
@@ -96,26 +96,26 @@
         "list": [
             {
                 "name": "🎧️正式版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/LXMusic/lx-music-mobile-v1.7.0-arm64-v8a.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/luoxue.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/LXMusic/lx-music-mobile-v1.7.0-arm64-v8a.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/luoxue.png",
                 "version": "1.7.0|64位"
             },
             {
                 "name": "🎧️正式版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/LXMusic/lx-music-mobile-v1.7.0-armeabi-v7a.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/luoxue.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/LXMusic/lx-music-mobile-v1.7.0-armeabi-v7a.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/luoxue.png",
                 "version": "1.7.0|32位"
             },
             {
                 "name": "🎧️Bate版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/LXMusic/lx-music-mobile-v1.7.1-beta.3-arm64-v8a.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/luoxue.png",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/LXMusic/lx-music-mobile-v1.7.1-beta.3-arm64-v8a.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/luoxue.png",
                 "version": "1.7.1|64位"
             },
             {
                 "name": "🎧️Bate版",
-                "url": "http://simonwang.cn:7090/tvbox/appupdate/LXMusic/lx-music-mobile-v1.7.1-beta.3-armeabi-v7a.apk",
-                "icon": "http://simonwang.cn:7090/pg/logo/luoxue.png",
+                "url": "https://github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/LXMusic/lx-music-mobile-v1.7.1-beta.3-armeabi-v7a.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/luoxue.png",
                 "version": "1.7.1|32位"
             }
         ]

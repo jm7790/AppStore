@@ -119,7 +119,7 @@
         "name": "🐹影视仓",
         "list": [
             {
-                "name": "📺TV版",
+                "name": "📺电视版",
                 "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/YingShiCang/%E5%BD%B1%E8%A7%86%E4%BB%93%E7%94%B5%E8%A7%86%E7%89%886.0.5.1.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
                 "version": "6.0.5.1"
@@ -145,25 +145,25 @@
                 "name": "📺️通用版",
                 "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/takagen99/TVBox_takagen99_20250325-0046-arm64-generic.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250325-0046|64位(推荐)"
+                "version": "0325|64位(推荐)"
             },
             {
                 "name": "📺️海信版",
                 "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/takagen99/TVBox_takagen99_20250325-0046-arm64-hisense.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250325-0046|32位"
+                "version": "0325|32位"
             },
             {
                 "name": "📺️通用版",
                 "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/takagen99/TVBox_takagen99_20250325-0046-armeabi-generic.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250325-0046|64位(推荐)"
+                "version": "0325|64位(推荐)"
             },
             {
                 "name": "📺️海信版",
                 "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/takagen99/TVBox_takagen99_20250325-0046-armeabi-hisense.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250325-0046|32位"
+                "version": "0325|32位"
             }
         ]
     },
@@ -172,15 +172,15 @@
         "list": [
             {
                 "name": "📺️Python版",
-                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/q215613905/TVBox_q215613905_20250410-1602-python.apk",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/q215613905/TVBox_q215613905_20250416-0028-python.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250410-1602|(推荐)"
+                "version": "0410|(推荐)"
             },
             {
                 "name": "📺️Java版",
-                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/q215613905/TVBox_q215613905_20250410-1602-java.apk",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/q215613905/TVBox_q215613905_20250416-0028-java.apk",
                 "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/tv.png",
-                "version": "20250410-1602"
+                "version": "0410"
             }
         ]
     },

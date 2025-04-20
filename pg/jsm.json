@@ -2,12 +2,21 @@
   "spider": "./pg.jar;md5;afda4f34509f1b5fe74c07241a5c4f58",
   "sites": [
     {
-      "key": "豆瓣热播",
+      "key": "豆瓣",
       "name": "豆瓣｜首页",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "jar": "https://gh-proxy.com/raw.githubusercontent.com/SimonWang911/simonwangsub/refs/heads/main/Pizazz/TVBoxOSC/tvbox/spider.jar;md5;e76c9a3c70ac890677875b52dd36bc29"
+    },
+    {
+      "key": "應用商店",
+      "name": "應用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/appupdate.json"
     },
     {
       "key": "热播影视",

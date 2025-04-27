@@ -139,6 +139,17 @@
         ]
     },
     {
+        "name": "🧐EasyBox",
+        "list": [
+            {
+                "name": "📱手机版",
+                "url": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/raw/refs/heads/main/appupdate/EasyBox/EasyBox_160_250420_sign.apk",
+                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/phone.png",
+                "version": "1.6.0"
+            }
+        ]
+    },
+    {
         "name": "🕋takagen99",
         "list": [
             {

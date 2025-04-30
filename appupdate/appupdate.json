@@ -230,19 +230,19 @@
             {
                 "name": "🌏高德地图",
                 "url": "https://mapdownload.autonavi.com/apps/auto/manual/V810/Auto_8.1.0.600185_release_signed.apk",
-                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/gddt.png",
+                "icon": "https://bkimg.cdn.bcebos.com/pic/7c1ed21b0ef41bd5ad6ec10ef18d96cb39dbb7fd9788?x-bce-process=image/format,f_auto",
                 "version": "车机版"
             },
             {
                 "name": "🌏百度地图",
                 "url": "https://downapp.baidu.com/original_new/322/1/1/1745936715759/BaiduMapForAuto.apk",
-                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/bddt.png",
+                "icon": "https://bkimg.cdn.bcebos.com/pic/18d8bc3eb13533fa828b7f49158aea1f4134970aed18?x-bce-process=image/format,f_auto",
                 "version": "车机版"
             },
             {
                 "name": "🌏腾讯地图",
                 "url": "http://simonwang.cn:7099/d/OneDrive/OpenFiles/OpenFiles/Tools/Android%E5%88%B7%E6%9C%BA/%E5%BA%94%E7%94%A8/%E8%85%BE%E8%AE%AF%E6%99%BA%E9%A9%BE%E5%9C%B0%E5%9B%BE.apk?sign=aSM7tuoD7_kQ_IjsJ4yAGkxn84KoMq_9x7Zg_almjh0=:0",
-                "icon": "https://gh-proxy.com/github.com/SimonWang911/simonwangsub/blob/main/logo/txdt.png",
+                "icon": "https://bkimg.cdn.bcebos.com/pic/8d5494eef01f3a292df5a249a277ab315c6035a8d6a0?x-bce-process=image/format,f_auto",
                 "version": "车机版"
             }
         ]

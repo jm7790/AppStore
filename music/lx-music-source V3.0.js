@@ -9,7 +9,7 @@
 // 是否开启开发模式
 const DEV_ENABLE = false
 // 是否开启更新提醒
-const UPDATE_ENABLE = true
+const UPDATE_ENABLE = false
 // 服务端地址
 const API_URL = "https://88.lxmusic.xn--fiqs8s"
 // 服务端配置的请求key

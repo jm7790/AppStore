@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # by @嗷呜
-# Modified to fix MIME type error
+# Modified to fix MIME type error and Host resolution
 import json
 import sys
 from base64 import b64decode, b64encode
@@ -18,12 +18,13 @@ class Spider(Spider):
     def init(self, extend=""):
         try:self.proxies = json.loads(extend)
         except:self.proxies = {}
+        # 还原回原版的 headers，以防新 headers 被拦截
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5410.0 Safari/537.36',
             'pragma': 'no-cache',
             'cache-control': 'no-cache',
             'sec-ch-ua-platform': '"Windows"',
-            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
             'dnt': '1',
             'sec-ch-ua-mobile': '?0',
             'origin': '',
@@ -78,7 +79,15 @@ class Spider(Spider):
 
     def homeVideoContent(self):
         data = self.getpq()
-        return {'list': self.getlist(data(".thumb-list--sidebar .thumb-list__item"))}
+        # 尝试默认选择器
+        items = data(".thumb-list--sidebar .thumb-list__item")
+        # 如果为空，尝试更通用的选择器（防止页面结构变化）
+        if not items:
+            items = data(".thumb-list__item")
+        if not items:
+            items = data("div[data-role='video-thumb']")
+            
+        return {'list': self.getlist(items)}
 
     def categoryContent(self, tid, pg, filter, extend):
         vdata = []
@@ -189,16 +198,12 @@ class Spider(Spider):
                         if url := info.get('url'):
                             encoded = self.e64(f'{0}@@@@{url}')
                             plist.append(f"{format_type}${encoded}")
-            else:
-                # 尝试备用方式解析（简单的正则或页面结构，如果JS数据提取失败）
-                # 这里保持原逻辑，如果提取失败则报错
-                pass
 
         except Exception as e:
             plist = [f"{vn}${self.e64(f'{1}@@@@{ids[0]}')}"]
             print(f"获取视频信息失败: {str(e)}")
         
-        if not plist: # 兜底逻辑
+        if not plist:
              plist = [f"{vn}${self.e64(f'{1}@@@@{ids[0]}')}"]
 
         vod['vod_play_url'] = '#'.join(plist)
@@ -221,14 +226,20 @@ class Spider(Spider):
             return self.tsProxy(url)
 
     def gethost(self):
+        # 修复逻辑：支持自动重定向，防止直接返回200时报错
         try:
-            response = requests.get('https://xhamster.com',proxies=self.proxies,headers=self.headers,allow_redirects=False)
-            if 'Location' in response.headers:
-                return response.headers['Location']
-            return "https://xhamster.com"
+            response = requests.get(
+                'https://xhamster.com',
+                proxies=self.proxies,
+                headers=self.headers,
+                allow_redirects=True, # 允许重定向
+                timeout=10
+            )
+            return response.url.rstrip('/')
         except Exception as e:
             print(f"获取主页失败: {str(e)}")
-            return "https://zn.xhamster.com"
+            # 备用域名
+            return "https://zh.xhamster.com"
 
     def e64(self, text):
         try:
@@ -281,7 +292,7 @@ class Spider(Spider):
             return {}
 
     def m3Proxy(self, url):
-        # 修正：将 application/vnd.apple.mpegur 改为 application/vnd.apple.mpegurl
+        # 保持修复：application/vnd.apple.mpegur -> application/vnd.apple.mpegurl
         try:
             ydata = requests.get(url, headers=self.headers, proxies=self.proxies, allow_redirects=False)
             data = ydata.content.decode('utf-8')
@@ -311,7 +322,6 @@ class Spider(Spider):
     def tsProxy(self, url):
         try:
             data = requests.get(url, headers=self.headers, proxies=self.proxies, stream=True)
-            # 增加默认 Content-Type，防止服务器不返回导致播放失败
             ct = data.headers.get('Content-Type', 'video/mp2t')
             return [200, ct, data.content]
         except Exception as e:
